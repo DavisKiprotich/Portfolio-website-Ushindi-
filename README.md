@@ -2,7 +2,22 @@
 # Portfolio-website-Ushindi-
 This will be the portfolio website for my first client 
 =======
+Day 1:
 # Getting Started with Create React App
+1. I created a new repository file to my  react app in one of my folders(Ushindi portfolio). I decided to move my react file to the parent folder which is the source of my repository to prevent much headache having realised that my local branch is a commit behind my remote branch. Decided to fix this with: git pull --rebase origin main, which fetches the changes made to the remote branch and merge them to the local repository.Once the merge occured, I pushed my code to the github repository.
+2. Created global css variables to be used throughout the project in my index.css and app.css files.
+Day 2:
+
+
+
+
+
+
+
+
+
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
