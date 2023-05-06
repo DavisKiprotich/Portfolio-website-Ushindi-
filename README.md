@@ -7,6 +7,10 @@ Day 1:
 1. I created a new repository file to my  react app in one of my folders(Ushindi portfolio). I decided to move my react file to the parent folder which is the source of my repository to prevent much headache having realised that my local branch is a commit behind my remote branch. Decided to fix this with: git pull --rebase origin main, which fetches the changes made to the remote branch and merge them to the local repository.Once the merge occured, I pushed my code to the github repository.
 2. Created global css variables to be used throughout the project in my index.css and app.css files.
 Day 2:
+# Installation of react-router-dom 
+I installed these dependency to aid in creating links to various routes of different paths displayed in different pages in my portfolio wwbsite.Having imported the BrowserRouter element for the app.js(Replaced React.StrictMode) , i used routes in my home.js page.
+# Creation of components and routes.
+Created routes for my files(Home, about, project and contact) and components folder having navbar which can then be displayed on my home.js file; Imported navbar.js to home.js
 
 
 
