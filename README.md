@@ -11,7 +11,10 @@ Day 2:
 I installed these dependency to aid in creating links to various routes of different paths displayed in different pages in my portfolio wwbsite.Having imported the BrowserRouter element for the app.js(Replaced React.StrictMode) , i used routes in my home.js page.
 # Creation of components and routes.
 Created routes for my files(Home, about, project and contact) and components folder having navbar which can then be displayed on my home.js file; Imported navbar.js to home.js
-
+Day 3:
+# Navbar links creation and styling of its components.
+I used router-dom link element to add the links to unordered list of navbar components; Home, about, projects and contact.
+My CSS styling was done in index.css which is mainly global styles for the body etcetera.Moreover, i did style my logo a bit and navigation menu for small devices. I positioned my logo with absolute position at the top left hand side of the webpage with navbar components forming an in-line block with it.
 
 
 
