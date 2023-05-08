@@ -2,6 +2,7 @@ import './Navbar.css';
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FaBars, FaTimes } from 'react-icons/fa'; 
+import logoImg from '../Assets/logo.jpeg';
 
 const Navbar = () => {
 
@@ -12,7 +13,7 @@ const Navbar = () => {
     return (
       <div classname='header'>
         <Link to='/'>
-        <img src='../Assets/logo.jpeg' alt='logo' />
+        <img className='logo' src={logoImg} alt='logo' />
         </Link>
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
           <li>
@@ -30,9 +31,7 @@ const Navbar = () => {
         </ul>
         <div className='ham' onClick={handleClick}>
         {click ? (<FaTimes size={20} style={{ color:'#fff' }} />)
-              : (<FaBars size={20} style={{ color:'#fff' }} />)}
-          
-          
+              : (<FaBars size={20} style={{ color:'#fff' }} />)}  
         </div>
       </div>
     )

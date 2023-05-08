@@ -98,7 +98,7 @@ body {
   line-height: 1.7;
   background: var(--color-bg);
   color:var(--color-white);
-  background:url(../src/Assets/bg2.jpeg)
+  /*background:url(../src/Assets/bg2.jpeg)*/
 }
 
 body,
@@ -109,7 +109,7 @@ textarea{
   font-size: var(--noraml-font-size);
 }
 
-@media screen and (max-width: 992px){
+/*@media screen and (max-width: 992px){
   .nav-menu{
     flex-direction: column;
     justify-content: center;
@@ -129,4 +129,4 @@ textarea{
     font-size: 1.8rem;
    }
    
-}
+}*/
