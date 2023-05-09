@@ -15,6 +15,10 @@ Day 3:
 # Navbar links creation and styling of its components.
 I used router-dom link element to add the links to unordered list of navbar components; Home, about, projects and contact.
 My CSS styling was done in index.css which is mainly global styles for the body etcetera.Moreover, i did style my logo a bit and navigation menu for small devices. I positioned my logo with absolute position at the top left hand side of the webpage with navbar components forming an in-line block with it.
+Day 4,5:
+#Styling hero component
+i created my hero file containing background image and its styling.I also redesigned my logo and styled in absolute position though it could not align with nav links,i will find a way of styling my nav links.
+Day 6:
 
 
 
