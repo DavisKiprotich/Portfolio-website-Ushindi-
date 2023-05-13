@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-# Portfolio-website-Ushindi-
+# Portfolio-website-Ushindi
 This will be the portfolio website for my first client 
 =======
 Day 1:
@@ -19,6 +19,11 @@ Day 4,5:
 #Styling hero component
 i created my hero file containing background image and its styling.I also redesigned my logo and styled in absolute position though it could not align with nav links,i will find a way of styling my nav links.
 Day 6:
+#Styling the background image 
+Imported the image from assets folder before placing it in a div with a className of back-img in mask div component.However, i tried to style it so that it can cover the whole page but failed,this is because i failed to use object-fit property to center the image.
+Day 7:
+#Created Content section
+Created content div component alongside the backgound image but should be positioned at the center of the image(center of the web page) but i am finding it difficult centering it,i will find a way before the end of the day. 
 
 
 
