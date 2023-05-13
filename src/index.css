@@ -71,14 +71,14 @@ ul{
   padding: 12px 32px;
   font-size: 1.1rem;
   /* text-transform: uppercase; */
-  background: linear-gradient(#CDB9C5, #28516F);
+  background: linear-gradient(#B7ABF7, #28516F);
   color: #1f1f38;
   border: 1px solid var(--color-nude);
   cursor: pointer;
   font-weight: 400;
 }
 .btn:hover{
-  background: var(--color-bg-variant);
+  background: var(--text-color);
   color: #fff;
   transition: ease-out 0.4s;
 }
@@ -86,7 +86,6 @@ ul{
 .btn-light{
   background: transparent;
   color: #fff;
-  font-family: ;
 }
 
 body {

@@ -7,7 +7,7 @@ import logoImg from '../Assets/logo.jpeg';
 const Navbar = () => {
 
     const [click, setClick] = useState(false);
-    const handleClick = () => setClick(!click)
+    const handleClick = () => setClick(!click);
 
 
     return (
@@ -30,8 +30,8 @@ const Navbar = () => {
           </li>
         </ul>
         <div className='ham' onClick={handleClick}>
-        {click ? (<FaTimes size={20} style={{ color:'#fff' }} />)
-              : (<FaBars size={20} style={{ color:'#fff' }} />)}  
+        {click ? (<FaTimes size={30} style={{ color:'#fff' }} />)
+              : (<FaBars size={30} style={{ color:'#fff' }} />)}  
         </div>
       </div>
     )
