@@ -23,7 +23,12 @@ Day 6:
 Imported the image from assets folder before placing it in a div with a className of back-img in mask div component.However, i tried to style it so that it can cover the whole page but failed,this is because i failed to use object-fit property to center the image.
 Day 7:
 #Created Content section
-Created content div component alongside the backgound image but should be positioned at the center of the image(center of the web page) but i am finding it difficult centering it,i will find a way before the end of the day. 
+Created content div component alongside the backgound image but should be positioned at the center of the image(center of the web page) using absolute position. 
+Day 8: 
+#Installed react typical
+React typical is animated typing library of approximately 400 bytes used for displaying multiple skills that someone does.I used this feature to display what the client does ,it is one of the libraries that i love.
+#Styling button elements on home page for smaller devices,
+Reducing the padding and font sizes of the button (btn) aligned the buttons without overlapping.
 
 
 
