@@ -29,6 +29,10 @@ Day 8:
 React typical is animated typing library of approximately 400 bytes used for displaying multiple skills that someone does.I used this feature to display what the client does ,it is one of the libraries that i love.
 #Styling button elements on home page for smaller devices,
 Reducing the padding and font sizes of the button (btn) aligned the buttons without overlapping.
+Day 9:
+#Created a footer section
+I had to split the footer section into 2 parts ,one on the right and left side.The left side is composed of the contact details of my client.Moreover, a link section is added that directs me to home page above.
+The right side is composed of the brief description of what the company is all about and social media links.
 
 
 
