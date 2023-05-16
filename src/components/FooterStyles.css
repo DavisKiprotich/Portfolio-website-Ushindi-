@@ -1,0 +1,39 @@
+.footer{
+    width: 100%;
+    padding: 5rem 0;
+    background: var(--color-bg-variant);
+}
+.footer-container{
+    max-width: 10140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+}
+.left{
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.location{
+    display: flex;
+    margin-bottom: 0.5rem;
+}
+.location p{
+    line-height: 25px;
+}
+.right{
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.footer-socials{
+    margin-top: 1rem;
+}
+.footer-socials:hover{
+    background: var(--text-color);
+}

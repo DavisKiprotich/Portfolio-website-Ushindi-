@@ -31,25 +31,23 @@ const Footer = () => {
                 <FaMailchimp  style={{marginRight: '2rem'}}/>
                 <div>
                   <Link to="/contact" >
-                  d-zillasol@gmail.com
+                  davidnavidali@gmail.com
                   </Link>
                 </div>
             </div>
-
-          
           </div>
           <div className="right">
           <h4>About the Company</h4>
           <p>We specialize with graphic design.With focus on innovation and attention to detail,our team works closely with clients to create visually compelling designs that bring their ideas to life.</p>
           <div className="footer-socials">
-            <a href="https://www.facebook.com/profile.php?id=100069188562293">
-              <IoLogoFacebook />
+            <a href="https://www.facebook.com/profile.php?id=100062809791733&mibextid=ZbWKwL">
+              <IoLogoFacebook style={{marginRight: '1rem'}}/>
             </a>
             <a href="https://www.twitter.com">
-              <SiTwitter />
+              <SiTwitter style={{marginRight: '1rem'}}/>
             </a>
             <a href="https://www.linkedin.com/in/davis-kiprotich-652b49243/">
-              <FaLinkedin />
+              <FaLinkedin style={{marginRight: '1rem'}}/>
             </a>
           </div>
             <div className="footer-copyright">D-Zilla</div>
