@@ -1,7 +1,7 @@
 .footer{
     width: 100%;
-    padding: 5rem 0;
-    background: var(--color-bg-variant);
+    padding: 1rem 0;
+    background: var(--color-bg);
 }
 .footer-container{
     max-width: 10140px;
@@ -24,6 +24,14 @@
 .location p{
     line-height: 25px;
 }
+.phone{
+    display: flex;
+    margin-bottom: 0.5rem;
+}
+.email{
+    display: flex;
+    margin-bottom: 0.5rem;
+}
 .right{
     height: 100%;
     max-width: 100%;
@@ -34,6 +42,24 @@
 .footer-socials{
     margin-top: 1rem;
 }
-.footer-socials:hover{
-    background: var(--text-color);
+h4{
+    font-size: 1.2rem;
+    padding-bottom: 0.7rem;
+}
+p{
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 640px){
+    .footer-container{
+        grid-template-columns: 1fr;
+    }
+    h4{
+        font-size: 0.7rem;
+        padding:0 0.2rem 0.5rem 0.2rem;
+    }
+    p{
+        font-size: 0.6rem;
+    }
 }

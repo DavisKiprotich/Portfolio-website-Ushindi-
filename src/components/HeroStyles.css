@@ -49,6 +49,12 @@
 }
 
 @media screen and (max-width: 640px) {
+    .logo{
+        display: none;
+    }
+    .content .typical{
+        font-size: 15px;
+    }
     .hero .content h2{
         font-size: 3rem;
     }
@@ -61,6 +67,9 @@
     }
 }
 @media screen and (max-width: 1040px) {
+    .content .typical{
+        font-size: 15px;
+    }
     .hero .content h2{
         font-size: 4rem;
     }

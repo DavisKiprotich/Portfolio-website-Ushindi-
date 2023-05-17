@@ -1,7 +1,7 @@
 import "./FooterStyles.css";
 import { IoLogoFacebook } from "react-icons/io";
 import { SiTwitter } from "react-icons/si";
-import { FaLinkedin, FaHome, FaPhone, FaMailchimp } from "react-icons/fa";
+import { FaLinkedin, FaHome, FaPhone, FaMailBulk } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 import React from "react";
@@ -28,7 +28,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="email">
-                <FaMailchimp  style={{marginRight: '2rem'}}/>
+                <FaMailBulk  style={{marginRight: '2rem'}}/>
                 <div>
                   <Link to="/contact" >
                   davidnavidali@gmail.com
@@ -50,7 +50,6 @@ const Footer = () => {
               <FaLinkedin style={{marginRight: '1rem'}}/>
             </a>
           </div>
-            <div className="footer-copyright">D-Zilla</div>
           </div>
       </div>
     </div>
