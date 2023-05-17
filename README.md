@@ -33,6 +33,9 @@ Day 9:
 #Created a footer section
 I had to split the footer section into 2 parts ,one on the right and left side.The left side is composed of the contact details of my client.Moreover, a link section is added that directs me to home page above.
 The right side is composed of the brief description of what the company is all about and social media links.
+Day 10:
+#Styling footer component.
+Used display flex to align the react icons along with the text. Used grid format to set the social media icons in line with one another .
 
 
 
