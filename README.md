@@ -36,8 +36,9 @@ The right side is composed of the brief description of what the company is all a
 Day 10:
 #Styling footer component.
 Used display flex to align the react icons along with the text. Used grid format to set the social media icons in line with one another .
-
-
+Day 11:
+# Creating Project file
+Inherited the navbar and footer components from the home page.I extended the hero as a class component using child props so that they can be displayed different across different files while one can change the components as he or she pleases. 
 
 
 
