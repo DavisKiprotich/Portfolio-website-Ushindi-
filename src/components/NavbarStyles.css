@@ -15,7 +15,7 @@
   align-items: center;
   justify-content: center;
   float: left;
-  border-radius: 50%;
+  border-radius: 50% !important;
   width: 60px;
   padding: 3px;
 }
