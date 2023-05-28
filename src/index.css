@@ -21,7 +21,7 @@
   --color-text: hsl(var(--hue, var(--sat), 46%));
   --body-color: hsl(var(--hue, var(--sat), 98%));
   --title-color-black: hsl(var(--hue, var(--sat), 0%));
-  --title-color: hsl(var(--hue, var(--sat), 20%));
+  --title-color-raw: hsl(var(--hue, var(--sat), 20%));
   --color-light: rgba(255, 255, 255, 0.6);
   --container-width-lg: 75%;
   --container-width-md: 86%;
