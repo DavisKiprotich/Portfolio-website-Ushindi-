@@ -41,13 +41,13 @@ const Footer = () => {
           <p>We specialize with graphic design.With focus on innovation and attention to detail,our team works closely with clients to create visually compelling designs that bring their ideas to life.</p>
           <div className="footer-socials">
             <a href="https://www.facebook.com/profile.php?id=100062809791733&mibextid=ZbWKwL">
-              <IoLogoFacebook style={{marginRight: '1rem'}}/>
+              <IoLogoFacebook style={{marginRight: '1rem'}} className='footer-icon' />
             </a>
             <a href="https://www.twitter.com">
-              <SiTwitter style={{marginRight: '1rem'}}/>
+              <SiTwitter style={{marginRight: '1rem'}} className='footer-icon' />
             </a>
             <a href="https://www.linkedin.com/in/davis-kiprotich-652b49243/">
-              <FaLinkedin style={{marginRight: '1rem'}}/>
+              <FaLinkedin style={{marginRight: '1rem'}} className='footer-icon' />
             </a>
           </div>
           </div>
