@@ -1,0 +1,101 @@
+.nav-menu {
+    display: flex;
+    float: right;
+    padding-top: 3px;
+}
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    font-weight: 500;
+    color: var(--text-color);
+}
+.contact-container{
+    width: 78%;
+    display: grid;
+    grid-template-columns: 30% 58%;
+    gap: 12%;
+    margin-left: 2.5rem;
+    position: absolute;
+    top: 1;
+    left: 1;
+    margin-top: 4rem;
+}
+.contact-options{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+.contact-option{
+    background: var(--color-bg-variant);
+    padding: 1.1rem;
+    border-radius: 1.3rem;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+.contact-option:hover{
+    background: transparent;
+    border-color: var(--text-color);
+}
+.contact-option-icon{
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+h5{
+    font-weight: 300;
+}
+.contact-option a{
+    margin-top: 0.6rem;
+    display: inline-block;
+    font-size: 0.9rem;
+}
+/*--------------Form----------*/
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+input, textarea{
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    border-color: var(--color-light);
+    background: transparent;
+    border: 1px solid var(--title-color);
+    resize: none;
+    color: var(--color-white);
+}
+/* button:hover{
+    background: var(--color-light)
+} */
+/*-------------MEDIA QUERIES-----------*/
+@media screen and (max-width: 1024px){
+    .contact-container{
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        /* margin-right: 2rem; */
+    }
+    .contact-option,textarea,input{
+        width: 90%;
+    }
+    button{
+        width: 95%;
+    }
+    
+}
+@media screen and (max-width: 600px){
+    .contact-container{
+        width: var(--container-width-sm);
+        /* margin-right: 2rem; */
+    }
+    .contact-option,textarea,input{
+        width: 90%;
+    }
+    button{
+        width: 95%;
+        margin-bottom: 4rem;
+    }
+}

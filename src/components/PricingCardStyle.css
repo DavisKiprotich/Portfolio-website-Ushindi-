@@ -1,0 +1,62 @@
+/* .pricing{
+    background: url(../Assets/water.jpeg);
+    background-position: center;
+    object-fit: cover;
+    background-size: cover;
+    opacity: 80%; 
+    max-height: 100vh;
+}
+.card-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.card{
+    width: 90%;
+    margin-bottom: 1.5rem;
+}
+.card-item{
+    text-align: center;
+    padding: 1rem;
+    border-radius: 2rem;
+    user-select: none;
+}
+.card-item > .card-item-image{
+    max-width: auto;
+    height: 70vh;
+    object-fit : cover !important;
+    /* object-position: center; */
+    /* padding: 1rem;
+    text-align: center;
+} */
+/* .card-item-image{
+    width: 80%;
+    height: 80vh;
+    text-align: center;
+    padding: 1.8rem;
+} */
+/* img{
+    width: 100%;
+    height: 70vh;
+    border-radius: 10px;
+    object-fit: contain;
+}
+.card-item-tag{
+    padding-bottom: 2rem;
+}
+
+
+@media screen and (max-width: 640px){
+    h3{
+        margin-top: 2.5rem;
+    }
+    img{
+        border-radius: 5px;
+    }
+}  */
