@@ -21,19 +21,25 @@ const ContactMe = () => {
         <div className='contact-container'>
             <div className='contact-options'>
                 <article className='contact-option'>
-                    <MdOutlineEmail className='contact-option-icon' />
-                    <h4>Email</h4>
-                    <a href='mailto:davidnavidali@gmail.com' target='_blank' rel='noreferrer'>Send a Message</a>
+                <a href='mailto:davidnavidali@gmail.com' target='_blank' rel='noreferrer'>
+                <MdOutlineEmail className='contact-option-icon' />
+                <h4>Email</h4>
+                Send a Message
+                </a>
                 </article>
                 <article className='contact-option'>
+                    <a href='https://www.facebook.com/profile.php?id=100062809791733&mibextid=ZbWKwL' target='_blank' rel='noreferrer'>
                     <RiMessengerLine className='contact-option-icon' />
                     <h4>Messenger</h4>
-                    <a href='https://www.facebook.com/profile.php?id=100062809791733&mibextid=ZbWKwL' target='_blank' rel='noreferrer'>Send a Message</a>
+                    Send a Message
+                    </a>
                 </article>
                 <article className='contact-option'>
+                    <a href='https://api.whatsapp.com/send?phone=+254791083661' target='_blank' rel='noreferrer'>
                     <AiOutlineWhatsApp className='contact-option-icon' />
                     <h4>Whatsapp</h4>
-                    <a href='https://api.whatsapp.com/send?phone=+254791083661' target='_blank' rel='noreferrer'>Send a Message</a>
+                    Send a Message
+                    </a>
                 </article>
             </div>
             <form ref={form} onSubmit={sendEmail}>
