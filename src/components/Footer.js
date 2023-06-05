@@ -43,10 +43,10 @@ const Footer = () => {
             <a href="https://www.facebook.com/profile.php?id=100062809791733&mibextid=ZbWKwL">
               <IoLogoFacebook style={{marginRight: '1rem'}} className='footer-icon' />
             </a>
-            <a href="https://www.twitter.com">
+            <a href="https://www.twitter.com/DavidUshindi1?t=hWcs-WXO_cH2OBkgSqzcfQ&s=09">
               <SiTwitter style={{marginRight: '1rem'}} className='footer-icon' />
             </a>
-            <a href="https://www.linkedin.com/in/davis-kiprotich-652b49243/">
+            <a href="https://www.linkedin.com/in/davidzilla-music-353305261/">
               <FaLinkedin style={{marginRight: '1rem'}} className='footer-icon' />
             </a>
           </div>
